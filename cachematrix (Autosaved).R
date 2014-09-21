@@ -1,4 +1,4 @@
-# Assignment 2: cashce the inverse of a matrix
+# Assignment 2: cache the inverse of a matrix
 
 ## This functions creates an object that can cache its inverse
 
@@ -35,3 +35,10 @@ if( !is.null(m) ){
 	message("getting cached data")
 	return(m)
 }
+data <-x$get()
+
+m <- solve(data) %*% data
+
+x$setInverse(m)
+
+m
