@@ -1,4 +1,4 @@
-# Assignment 2: cashce the inverse of a matrix
+# Assignment 2: cache the inverse of a matrix
 
 ## This functions creates an object that can cache its inverse
 
