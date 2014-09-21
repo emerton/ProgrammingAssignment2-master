@@ -35,6 +35,7 @@ if( !is.null(m) ){
 	message("getting cached data")
 	return(m)
 }
+<<<<<<< HEAD
 data <-x$get()
 
 m <- solve(data) %*% data
@@ -42,3 +43,5 @@ m <- solve(data) %*% data
 x$setInverse(m)
 
 m
+=======
+>>>>>>> FETCH_HEAD
